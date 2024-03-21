@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.gallery,
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery img,
+.menu img {
+  margin: 10px;
+  width: 30%;
+  border-radius: 8px; /* Added rounded corners for aesthetics */
+}
+.menu li {
+  list-style-type: none;
+  text-align: center; /* Center text and images in the menu */
+}
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: blue;
+}
